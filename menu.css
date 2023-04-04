@@ -1,0 +1,225 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+
+body {
+    background: lightblue;
+    font-family: sans-serif;
+    justify-content: center;
+    text-align: center;
+}
+p{
+    color: black;
+}
+form{
+    color: black
+}
+/* Heading styling starts here*/
+.heading {
+    background: lightblue;
+    color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+    padding: 30px 0;
+    text-align: center;
+    width: 100%;
+}
+h1 {
+    font-weight: 600;
+    font-size: 35px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+}
+
+.hero-image {
+    height: 100%;
+    background-image: url(https://dirkstrauss.com/wp-content/uploads/2014/05/south-african-cities.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+/* Menu styling starts here*/
+.menu {
+    padding: 0 10px 30px 10px;
+    display: grid;
+}
+
+.food-items {
+    display: grid;
+    justify-content: center;
+    position: relative;
+    grid-template-columns: auto auto;
+    border-radius: 15px;
+    border: solid 10px black;  
+}
+
+.food-items img{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    border-radius: 15px 15px 0 0;
+}
+.details {
+    background-color: tan;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+button{
+    height: 70px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: lightblue;
+}
+
+.order-now {
+    font: bold 11px Arial;
+    background-color: #EEEEEE;
+    border-radius: 25px;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+}
+
+/* This is the biggining of the footer and social media styling*/
+.fa:hover {
+    opacity: 0.7;
+  }
+footer{
+    background: lightblue;
+    color: #f3f3f3;
+    padding: 30px 0;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+}
+.fa {
+    font-size: 30px;
+    height: 25px;
+    width: 5%;
+    text-align: center;
+    text-decoration: none;
+  }
+    
+.fa-facebook {
+    background: #3B5998;
+    color: tan;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: tan;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: tan;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: tan;
+  }
+
+  @media only screen and (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+    
+    .menu {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .food-items {
+      width: 90%;
+      margin-bottom: 20px;
+    }
+    
+    .details {
+      width: 100%;
+      text-align: center;
+    }
+    
+    .details-sub {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    
+    .details-sub {
+      margin-bottom: 5px;
+    }
+    
+    .price {
+      margin-top: 5px;
+    }
+    
+    button {
+      margin-top: 10px;
+    }
+    
+    footer {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .fa {
+      margin: 0 10px;
+      font-size: 20px;
+    }
+  }
+
+  @media only screen and (min-width: 1900px) {
+    body {
+      font-size: 14px;
+    }
+    
+    .menu {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .food-items {
+      width: 90%;
+      margin-bottom: 20px;
+    }
+    
+    .details {
+      width: 100%;
+      text-align: center;
+    }
+    
+    .details-sub {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    
+    .details-sub {
+      margin-bottom: 5px;
+    }
+    
+    .price {
+      margin-top: 5px;
+    }
+    
+    button {
+      margin-top: 10px;
+    }
+    
+    footer {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .fa {
+      margin: 0 10px;
+      font-size: 20px;
+    }
+  }
